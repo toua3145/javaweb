@@ -1,94 +1,91 @@
-@charset "UTF-8";
-*{
-	margin: 0;
-	padding: 0;
+charset "UTF-8";
+* {
+margin: 0;
+padding: 0;
+box-sizing:border-box;
 }
-body{
-	font-family: gulim;
+body {
+font-family: gulim;
+margin:0 auto;
 }
-header{
-	top: 0;
-	height: 150px;
-	line-height: 150px;
-	width: 100%;
-	background: #333;
-	text-align: center;
-	font-size: 35px;
-	font-weight: 900;
-	color: #fff;
+header {
+display: block;
+background-color: blue;
+color: white;
+text-align: center;
+height: 60px;
+font-size: 40px;
+padding: 0px;
+top: 0;
+height: 150px;
+font-weight: 1000;
 }
-nav ul{
-	height: 50px;
-	line-height: 50px;
-	width: 100%;
-	background: #444;
+header {
+display: flex;
+align-items: center;
+justify-content: center;
 }
-nav ul li{
-	list-style: none;
-	float: left;
-	padding: 0 10px;
+footer {
+background-color: skyblue;
+color: white;
+height: 80px;
+text-align: center;
 }
-a{
-	text-decoration: none;
-	color: #fff;
+footer {
+display: flex;
+align-items: center;
+justify-content: center;
 }
-a:hover{
-	cursor: pointer;
-	opacity: 0.3;
+.nav {
+background-color: plum;
+color: white;
+height: 60px;
+line-height: 58px;
 }
-section{
-	position: absolute;
-	overflow: auto;
-	width: 100%;
-	height: 100%;
-	background: #e3e5e5;
+.nav li {
+width: 100px;
+height: 40px;
 }
-.main{
-	margin: 0 2rem;
+.nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
 }
-.main ul li{
-	list-style: number;
+.nav li {
+display: inline;
+margin: 0 5px;
 }
-.title{
-	font-size: 30px;
-	font-weight: 900;
-	text-align: center;
-	margin: 3rem;
+.nav li a {
+text-decoration: none;
+color: white;
 }
-.wrapper{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+.nav li a:hover {
+color: aqua;
 }
-table{
-	width: 600px;
+section {
+padding: 20px 30px;
 }
-table,tr,th,td{
-	border: 1px solid #333;
-	border-collapse: collapse;
-	padding: 0.7rem;
+.title {
+font-size: 16px;
+font-weight: 600;
+text-align: center;
+margin: 20px;
 }
-td input{
-	float: left;
-	padding: 0.3rem;
+section li {
+list-style-position: inside;
 }
-.btn{
-	padding: 0.4rem 1rem;
-	border-radius: 0.4rem;
-	border: 0;
+html,
+body {
+  height: 100%;
 }
-.btn:hover{
-	opacity: 0.6;
-	cursor: pointer;
+body {
+display: flex;
+flex-direction: column;
+text-align: justify;
+background-color:rgba(230, 230, 230, 0.2);
+margin: 0;
 }
-
-footer{
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	background: #333;
+main {
+flex: auto;
+background-color: liceblue;;
 }
